@@ -1,4 +1,4 @@
-import { rootRouteHandler } from '@controllers/root-page';
+import { rootRouteHandler } from '@controllers/root-router';
 import {Router} from 'express';
 import configRouter from 'src/utilities/config-router';
 
