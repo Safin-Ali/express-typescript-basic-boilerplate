@@ -2,9 +2,10 @@
 	"name": "express-typescript-basic-boilerplate",
 	"version": "1.0.0",
 	"description": "basic express app boilerplate",
-	"main": "src/index.ts",
+	"main": "dist/index.js",
 	"scripts": {
-		"build": "webpack",
+		"start": "node dist/index.js",
+		"build": "clear && babel src --out-dir dist --extensions \".ts\"",
 		"dev": "ts-node-dev --respawn -r tsconfig-paths/register src/index.ts"
 	},
 	"repository": {
