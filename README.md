@@ -6,12 +6,10 @@
 
 3. Used Babel For Transpile Code Older Version ES5 or Less.
 
-4. Used Webpack 5 For After Build App You Will Got Minimised Code Assets With Single.
+4. Best ESLint Config For Developer Best Code Experience.
 
-5. Best ESLint Config For Developer Best Code Experience.
+5. Programmer Meaningfull logger (console.log()).
 
-6. Programmer Meaningfull logger (conso.log()).
+6. Good Algorithm Or Meaningfull JSDocs Comments.
 
-7. Good Algorithm Or Meaningfull JSDocs Comments.
-
-8. OOP Approch Used.
+7. OOP Approch Used.
