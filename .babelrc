@@ -10,7 +10,14 @@
 				"corejs": 3
             }
         ],
-        "@babel/preset-typescript"
-    ]
+        [
+			"@babel/preset-typescript",{
+				"rewriteImportExtensions":true
+			}
+		]
+    ],
+	"plugins": [
+		"tsconfig-alias-to-relative"
+	]
 
 }
