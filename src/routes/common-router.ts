@@ -4,6 +4,7 @@ import {Router} from 'express';
 
 export const router = Router();
 
+// that will always end of all routes
 router.all('/api/*',rootRouteHandler);
 
 export default configRouter(['/',router]);
