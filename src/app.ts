@@ -32,7 +32,7 @@ class App {
 	 * The Routes instance for managing routes.
 	 * @type {Routes}
 	 */
-	public routes: Routes;
+	private routes: Routes;
 
 	/**
 	 * Creates an instance of App.
@@ -50,23 +50,19 @@ class App {
 	 * Starts the server and listens on the specified port.
 	 * @public
 	 */
-	server() {
+	startServer = () => {
 		this.expressApp.listen(port, () => {
 			logger.process(`The server is running on ${port}`);
 		});
-	}
+	};
 }
 
 /**
  * The main application instance.
  * @type {App}
  */
-const app = new App();
+const app: App = new App();
 
-/**
- * Starts the server using the main application instance.
- * @function
- */
-export const startServer = () => app.server();
+export const {startServer,expressApp} = app;
 
 export default app;
