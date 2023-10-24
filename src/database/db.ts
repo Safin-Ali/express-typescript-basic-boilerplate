@@ -9,7 +9,7 @@ import { ConnectionOptions } from '@custom-types/mongoose.d';
 import { resolve } from 'node:path';
 import { existsSync } from 'node:fs';
 import logger from '@utilities/color-logger';
-import inDevMode from '@utilities/developmet-mode';
+import inDevMode from '@utilities/development-mode';
 
 /**
  * Connects the application to the MongoDB database.
